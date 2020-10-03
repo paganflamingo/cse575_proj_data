@@ -1,14 +1,11 @@
 import pandas as pd
-import numpy as np
 from sklearn import preprocessing
-import seaborn as sn
-import matplotlib.pyplot as plt
 
 # 61 columns with na values
 # 15 columns with string values
 # 56 columns with numbers
 
-d_path = 'cse575_proj_data/cumulative_2020.09.04_15.26.41.csv'
+d_path = 'cumulative_2020.09.04_15.26.41.csv'
 df = pd.read_csv(d_path, header=0)
 print(df.columns.tolist())
 # removed kepler_name and koi_comment (unnecessary features) features with all nans (koi_longp, koi_ingress, koi_sage, koi_model_dof, koi_model_chisq)
@@ -19,7 +16,8 @@ df = df.dropna()
 df = df[df['koi_disposition'] != 'CANDIDATE']
 y = df['koi_disposition']
 codes, values = pd.factorize(y)
-codes_df = pd.DataFrame(.to_csv('y_raw.csv')
+codes_df = pd.DataFrame(codes)
+codes_df.to_csv('y_raw.csv')
 
 print(f'{codes}, {values}')
 
