@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 
-data = pd.read_csv("output25.csv") #filename
+data = pd.read_csv("output.csv") #filename
 labels = data['koi_disposition'].to_numpy()
 data = data.drop('koi_disposition', axis=1).to_numpy()
 #x = data.drop('koi_disposition', axis = 1)
