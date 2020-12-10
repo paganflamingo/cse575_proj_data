@@ -18,6 +18,7 @@ To run AdaBoost Classifier:
 To run Logistic Regression Classifier:
 
 To run Voting Classifier:
+  1)'python3 VotingClassifier.py'
 
 To run Neural Network Classifier:
   1) download python and package prerequisites, note that Keras and Tensorflow must be installed correctly
