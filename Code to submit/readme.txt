@@ -20,3 +20,6 @@ To run Logistic Regression Classifier:
 To run Voting Classifier:
 
 To run Neural Network Classifier:
+  1) download python and package prerequisites, note that Keras and Tensorflow must be installed correctly
+  2) Make sure that the 'output.csv' file is in the same directory as NeuralNetwork.py
+  3) 'python 3 NeuralNetwork.py' should result in the confusion matrices and accuracy results. 
