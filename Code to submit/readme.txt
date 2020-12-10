@@ -8,6 +8,9 @@ To run Random Forest Classifier: Run RandomForest_withCV.py file. Make sure that
 To run Naive Baye's Classifier:
 
 To run AdaBoost Classifier:
+  1) download python and package prerequisites
+  2) 'python 3 adaboost.py' should result in the confusion matrices and accuracy results. 
+  3) Make sure that the 'output.csv' file is in the same folder/the directory for loading in data is updated to teh proper location with 'output.csv'
 
 To run Logistic Regression Classifier:
 
