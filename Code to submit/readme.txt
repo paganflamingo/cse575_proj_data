@@ -12,7 +12,7 @@ To run Naive Baye's Classifier:
 
 To run AdaBoost Classifier:
   1) download python and package prerequisites
-  2) 'python 3 adaboost.py' should result in the confusion matrices and accuracy results. 
+  2) 'python3 adaboost.py' should result in the confusion matrices and accuracy results. 
   3) Make sure that the 'output.csv' file is in the same folder/the directory for loading in data is updated to the proper location with 'output.csv'
 
 To run Logistic Regression Classifier:
@@ -22,4 +22,4 @@ To run Voting Classifier:
 To run Neural Network Classifier:
   1) download python and package prerequisites, note that Keras and Tensorflow must be installed correctly
   2) Make sure that the 'output.csv' file is in the same directory as NeuralNetwork.py
-  3) 'python 3 NeuralNetwork.py' should result in the confusion matrices and accuracy results. 
+  3) 'python3 NeuralNetwork.py' should result in the confusion matrices and accuracy results. 
