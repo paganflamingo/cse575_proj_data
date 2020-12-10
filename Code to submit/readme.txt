@@ -3,7 +3,10 @@ Make sure the data file, 'cumulative_2020.09.04_15.26.41.csv' and the Preprocess
 
 Step 2: Run the corresponding file to run the classification algorithm on the 'output.csv'data.
 
-To run Random Forest Classifier: Run RandomForest_withCV.py file. Make sure that the 'output.csv' and 'RandomForest_withCV.py' files are in the same folder.
+To run Random Forest Classifier:
+  1) download python and package prerequisites
+  2) Make sure that the 'output.csv' file is in the same directory as RandomForest_withCV.py
+  3) 'python3 RandomForest_withCV.py' should result in the confusion matrices and accuracy results. 
 
 To run Naive Baye's Classifier:
   1) download python and package prerequisites
