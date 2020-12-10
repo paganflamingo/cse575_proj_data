@@ -15,10 +15,8 @@ from sklearn.feature_selection import RFECV
 from sklearn.tree import DecisionTreeClassifier
 
 #Reading the CSV file into a dataframe
-#d_path = 'cumulative_2020.09.04_15.26.41.csv'
-#df = pd.read_csv(d_path, header=0)
-#df = pd.read_csv('cumulative_2020.09.04_15.26.41.csv')
-df = pd.read_csv(r"C:\Users\SuRaga\Documents\Classes - Suprada\Fall 2020\CSE 575 - Machine Learning\Project\My code\cumulative_2020.09.04_15.26.41.csv")
+d_path = 'cumulative_2020.09.04_15.26.41.csv'
+df = pd.read_csv(d_path, header=0)
 
 #Deleting the columns that are not required
 df = df.drop(['rowid', 'kepid', 'kepoi_name', 'kepler_name', 'koi_vet_stat', 
